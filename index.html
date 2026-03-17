@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon"></span>
+        portfólio
+      </a>
+      <nav class="nav">
+        <a href="#work" class="nav-link">Trabalho</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#contact" class="cta-btn">Contacto →</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">✦ Disponível para projetos</div>
+      <h1 class="hero-heading">
+        <span class="line line-1">Design &amp;</span>
+        <span class="line line-2">Desenvolvimento<span class="gradient-text"> Web</span></span>
+      </h1>
+      <p class="hero-body">
+        Criação de experiências digitais modernas, funcionais e memoráveis. Cada projeto é construído com atenção ao detalhe e foco no utilizador.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn-primary">Ver projetos</a>
+        <a href="#contact" class="btn-ghost">Falar comigo</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">02</span><span class="stat-label">Projetos</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Dedicação</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Criatividade</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="visual-card vc-main">
+        <div class="vc-dots">
+          <span class="vc-dot red"></span>
+          <span class="vc-dot yellow"></span>
+          <span class="vc-dot green"></span>
+        </div>
+        <div class="vc-code">
+          <span class="code-line"><span class="c-kw">const</span> <span class="c-var">projeto</span> = {</span>
+          <span class="code-line pad">design: <span class="c-str">'moderno'</span>,</span>
+          <span class="code-line pad">stack: <span class="c-str">'web'</span>,</span>
+          <span class="code-line pad">qualidade: <span class="c-num">100</span></span>
+          <span class="code-line">}</span>
+        </div>
+      </div>
+      <div class="visual-card vc-float">✦ Novo projeto</div>
+      <div class="visual-ring">
+        <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="40" r="30" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="8 4"/>
+          <defs>
+            <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#a78bfa"/>
+              <stop offset="100%" stop-color="#38bdf8"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <div class="work-header">
+      <span class="tag">// projetos</span>
+      <h2 class="work-title">Em destaque</h2>
+    </div>
+    <div class="projects-grid">
+
+      <a href="projeto 1/index.html" class="project-card pc-1">
+        <div class="pc-glow"></div>
+        <div class="pc-top">
+          <span class="pc-index">01</span>
+          <span class="pc-arrow">↗</span>
+        </div>
+        <h3 class="pc-title">Projeto Um</h3>
+        <p class="pc-desc">Descrição do primeiro projeto — objetivos, tecnologias utilizadas e impacto gerado.</p>
+        <div class="pc-footer">
+          <div class="pc-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <span class="pc-cta">Ver projeto →</span>
+        </div>
+        <div class="pc-bar"></div>
+      </a>
+
+      <a href="projeto 2/index.html" class="project-card pc-2">
+        <div class="pc-glow"></div>
+        <div class="pc-top">
+          <span class="pc-index">02</span>
+          <span class="pc-arrow">↗</span>
+        </div>
+        <h3 class="pc-title">Projeto Dois</h3>
+        <p class="pc-desc">Descrição do segundo projeto — abordagem técnica, desafios e soluções implementadas.</p>
+        <div class="pc-footer">
+          <div class="pc-tags"><span>UI/UX</span><span>React</span><span>Web</span></div>
+          <span class="pc-cta">Ver projeto →</span>
+        </div>
+        <div class="pc-bar"></div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-inner">
+      <span class="tag">// sobre</span>
+      <h2 class="about-title">Olá, <span class="gradient-text">tudo bem?</span></h2>
+      <p class="about-body">
+        Sou um criador de experiências digitais. Trabalho com design e desenvolvimento para criar produtos que as pessoas adoram usar. Cada detalhe importa.
+      </p>
+      <div class="skills-row">
+        <div class="skill-pill">HTML &amp; CSS</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">UI Design</div>
+        <div class="skill-pill">Responsive</div>
+        <div class="skill-pill">Performance</div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <h2 class="footer-title">Vamos trabalhar<br /><span class="gradient-text">juntos?</span></h2>
+      <a href="mailto:ola@portfolio.pt" class="footer-email">ola@portfolio.pt →</a>
+      <p class="footer-copy">© 2026 · Portfólio</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
